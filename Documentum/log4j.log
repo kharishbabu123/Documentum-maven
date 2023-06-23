@@ -1,0 +1,2 @@
+0 [main] ERROR com.documentum.fc.common.impl.logging.LoggingConfigurator  - Problem locating log4j configuration
+1 [main] WARN com.documentum.fc.common.impl.logging.LoggingConfigurator  - Using default log4j configuration
