@@ -6,6 +6,7 @@
 
 	<properties>
 		<documentum.version>23.2</documentum.version>
+		<spring.version>6.1.4</spring.version>
 		<tomcat.version>9.0.27</tomcat.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -33,6 +34,16 @@
 		    <artifactId>log4j</artifactId>
 		    <version>1.2.17</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.22.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.22.1</version>
+		</dependency>
 
 
 
@@ -47,6 +58,19 @@
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>5.2.3</version>
+		</dependency>
+
+
+		<!-- Spring dependencies -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.version}</version>
 		</dependency>
 	</dependencies>
 
