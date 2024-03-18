@@ -3,7 +3,7 @@ package test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.documentum.fc.client.IDfSession;
+// import com.documentum.fc.client.IDfSession;
 import com.documentum.fc.common.DfException;
 
 import session.Session;
